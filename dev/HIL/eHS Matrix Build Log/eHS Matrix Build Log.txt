@@ -1,0 +1,94 @@
+***************************************************************************
+***************************************************************************
+Core 1
+ ----------------------------------------------------------------------
+                         OPAL-RT TECHNOLOGIES                           
+
+  eHSx64 Gen3 solver netlist information: 
+ ----------------------------------------------------------------------
+
+ Netlist Name:   FPGA clock period:  5e-09 
+ Solver desired time step:  2.45e-07 
+ Solver achievable minimum time step:  2.45e-07 
+ Solver achievable minimum number of FPGA clock cycle:      49 
+ 
+ 
+ Number of States (Inductor Current, Capacitor Voltages):  15 
+ Number of Switches:  10 
+ Number of Inputs:   7 
+ Number of Outputs:  10 
+
+
+ ----------------------------------------------------------------------
+  Further details about inputs:  
+ -------------------------------------------------
+  Index           Label                Type
+ -------------------------------------------------
+     1          u01_va            Voltage source 
+     2          u02_vb            Voltage source 
+     3          u03_vc            Voltage source 
+     4       u04_harma            Voltage source 
+     5       u05_harmb            Voltage source 
+     6       u06_harmc            Voltage source 
+     7        u07_batt            Voltage source 
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about outputs:  
+ -------------------------------------------------
+  Index          Label                 Type
+ -------------------------------------------------
+     1          y01_va            Voltage measurement 
+     2          y02_vb            Voltage measurement 
+     3          y03_vc            Voltage measurement 
+     4          y04_ia            Current measurement 
+     5          y05_ib            Current measurement 
+     6          y06_ic            Current measurement 
+     7     y07_dc_link            Voltage measurement 
+     8        y08_batt            Voltage measurement 
+     9             y09            Current measurement 
+    10             y10            Current measurement 
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about switches:  
+ ------------------------------------------------------------
+  Index         Label                 Type              Gs
+ ------------------------------------------------------------
+     1          sw01               IGBT//Diode        0.1100  
+     2         sw010               IGBT//Diode        0.1100  
+     3          sw02               IGBT//Diode        0.1100  
+     4          sw03               IGBT//Diode        0.1100  
+     5          sw04               IGBT//Diode        0.1100  
+     6          sw05               IGBT//Diode        0.1100  
+     7          sw06               IGBT//Diode        0.1100  
+     8          sw07               IGBT//Diode        0.1100  
+     9          sw08               IGBT//Diode        0.1100  
+    10          sw09               IGBT//Diode        0.1100  
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+  Details about states:  
+ ---------------------------------------------------------------------
+  Index                              State name               Type      
+ ---------------------------------------------------------------------
+     1                             Uc_c_dclink1            Capacitor        
+     2                             Uc_c_dclink2            Capacitor        
+     3                                    Il_l1           Inductance        
+     4                                    Il_l2           Inductance        
+     5                                    Il_l3           Inductance        
+     6                                    Il_l5           Inductance        
+     7                                    Il_l6           Inductance        
+     8                                    Uc_c2            Capacitor        
+     9                                    Uc_c3            Capacitor        
+    10                                    Il_l4           Inductance        
+    11                                    Il_l7           Inductance        
+    12                                    Il_l8           Inductance        
+    13                                    Uc_c1            Capacitor        
+    14                                    Uc_c4            Capacitor        
+    15                                    Uc_c5            Capacitor        
+ ----------------------------------------------------------------------
+
